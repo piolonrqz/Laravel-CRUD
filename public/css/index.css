@@ -1,0 +1,63 @@
+/* Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Image Styling */
+.header-image {
+  background-image: url("../images/green.jpeg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Layout Styling */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #F5F8FA; /* Soft light background */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #32612d; /* Green color */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #333333;
+}
+
+/* Button Styling */
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #32612d;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #728c69;
+}
